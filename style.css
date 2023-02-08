@@ -1,0 +1,127 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+* {
+    margin:  0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    background-color: #0d192b;
+    font-family: 'Outfit', sans-serif;
+}
+
+.container {
+    width: 100%;
+    height: calc(100vh - 15px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.principal {
+    background-color: #14253d;
+    width: 350px;
+    height: 600px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 50px 50px rgba(0, 0, 0, 0.288);
+}
+
+.infor h1 {
+    padding: 15px 0px 10px 30px;
+    color: #fbffff;
+    font-weight: 600;
+}
+
+.infor p {
+    color: #617897;
+    width: 280px;
+    padding-left: 30px;
+}
+
+.status {
+    width: 300px;
+    display: flex;
+    height: 70px;
+    align-items: center;
+    padding-left: 25px;
+}
+
+.status h2 {
+    color: #fbffff;
+    padding-left: 5px;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.status .relogio {
+    padding-left: 50px;
+}
+
+.status p {
+    color: #617897;
+    padding-left: 5px;
+    font-weight: 300;
+}
+
+.image {
+    width: 350px;
+    height: 330px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image:hover {
+    background-image: url(./images/icon-view.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.image img {
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.image img:hover {
+    opacity: 0.40;
+}
+
+.rodape {
+    display: flex;
+    align-items: center;
+    padding: 30px 20px;
+}
+
+.rodape img {
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    border: 1px solid white;
+}
+
+.rodape p {
+    padding-left: 10px;
+    color: #617897;
+}
+
+span {
+    color: #fbffff;
+    cursor: pointer;
+}
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+}
+
+
+.attribution a {
+    color: hsl(228, 45%, 44%); 
+}
